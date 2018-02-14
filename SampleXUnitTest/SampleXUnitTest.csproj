@@ -65,6 +65,18 @@
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="release\SampleXUnitTest.dll" />
+    <Content Include="release\SampleXUnitTest.pdb" />
+    <Content Include="release\xunit.abstractions.dll" />
+    <Content Include="release\xunit.abstractions.xml" />
+    <Content Include="release\xunit.assert.dll" />
+    <Content Include="release\xunit.assert.xml" />
+    <Content Include="release\xunit.core.dll" />
+    <Content Include="release\xunit.core.xml" />
+    <Content Include="release\xunit.execution.desktop.dll" />
+    <Content Include="release\xunit.execution.desktop.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
