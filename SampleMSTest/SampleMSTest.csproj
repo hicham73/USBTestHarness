@@ -54,6 +54,17 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" />
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" />
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" />
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" />
+    <Content Include="release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml" />
+    <Content Include="release\SampleMSTest.dll" />
+    <Content Include="release\SampleMSTest.pdb" />
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
